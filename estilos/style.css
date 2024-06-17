@@ -151,3 +151,24 @@ nav > a:hover{
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+@media only screen and (max-width: 600px) {
+    #form-cadastro {
+        width: 90%; /* Reduz o tamanho do formulário */
+    }
+
+    /* Ajuste os estilos dos campos de entrada */
+    input[type="text"], select {
+        width: 100%; /* Preenche toda a largura disponível */
+        box-sizing: border-box; /* Inclui padding e borda na largura */
+        margin-bottom: 10px; /* Adiciona espaço entre os campos */
+    }
+
+    /* Ajuste o espaçamento entre as seções do formulário */
+    .font-cadastro > div {
+        margin-bottom: 10px; /* Adiciona espaço entre as seções */
+    }
+
+    #tela-cadastro-cadastrar {
+        justify-content: center; /* Centraliza o botão de cadastrar */
+    }
+}
